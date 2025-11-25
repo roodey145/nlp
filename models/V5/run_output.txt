@@ -1,0 +1,64 @@
+========== FINAL RESULTS ==========
+Model Version: V5
+
+Final Train Accuracy: 0.4816
+Final Validation Accuracy: 0.4796
+
+Test Loss: 1.1392
+Test Accuracy: 0.5090
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.4907    0.3763    0.4260       279
+           1     0.5144    0.7046    0.5947       633
+           2     0.3636    0.0925    0.1475       389
+           3     0.4688    0.6176    0.5330       510
+           4     0.6229    0.5589    0.5892       399
+
+    accuracy                         0.5090      2210
+   macro avg     0.4921    0.4700    0.4581      2210
+weighted avg     0.4939    0.5090    0.4794      2210
+
+====================================
+
+[Train] 512/8544 | Loss=1.6122 | Acc=0.1934
+[Train] 1008/8544 | Loss=1.6069 | Acc=0.2133
+[Train] 1504/8544 | Loss=1.6007 | Acc=0.2394
+[Train] 2000/8544 | Loss=1.5950 | Acc=0.2585
+[Train] 2512/8544 | Loss=1.5880 | Acc=0.2739
+[Train] 3008/8544 | Loss=1.5749 | Acc=0.2955
+[Train] 3504/8544 | Loss=1.5669 | Acc=0.3042
+[Train] 4000/8544 | Loss=1.5571 | Acc=0.3132
+[Train] 4512/8544 | Loss=1.5432 | Acc=0.3265
+[Train] 5008/8544 | Loss=1.5245 | Acc=0.3357
+[Train] 5504/8544 | Loss=1.5081 | Acc=0.3418
+[Train] 6000/8544 | Loss=1.4890 | Acc=0.3517
+[Train] 6512/8544 | Loss=1.4724 | Acc=0.3587
+[Train] 7008/8544 | Loss=1.4557 | Acc=0.3643
+[Train] 7504/8544 | Loss=1.4402 | Acc=0.3717
+[Train] 8000/8544 | Loss=1.4282 | Acc=0.3756
+[Train] 8512/8544 | Loss=1.4155 | Acc=0.3796
+[Val] 512/1101 | Loss=1.1936 | Acc=0.4434
+[Val] 1008/1101 | Loss=1.2097 | Acc=0.4405
+Epoch 1: Train Acc=0.3804 | Val Acc=0.4378
+[Train] 512/8544 | Loss=1.2261 | Acc=0.4746
+[Train] 1008/8544 | Loss=1.2039 | Acc=0.4861
+[Train] 1504/8544 | Loss=1.2120 | Acc=0.4688
+[Train] 2000/8544 | Loss=1.2113 | Acc=0.4700
+[Train] 2512/8544 | Loss=1.2094 | Acc=0.4689
+[Train] 3008/8544 | Loss=1.2022 | Acc=0.4678
+[Train] 3504/8544 | Loss=1.1947 | Acc=0.4732
+[Train] 4000/8544 | Loss=1.1855 | Acc=0.4765
+[Train] 4512/8544 | Loss=1.1866 | Acc=0.4765
+[Train] 5008/8544 | Loss=1.1855 | Acc=0.4756
+[Train] 5504/8544 | Loss=1.1836 | Acc=0.4782
+[Train] 6000/8544 | Loss=1.1821 | Acc=0.4775
+[Train] 6512/8544 | Loss=1.1783 | Acc=0.4810
+[Train] 7008/8544 | Loss=1.1765 | Acc=0.4819
+[Train] 7504/8544 | Loss=1.1748 | Acc=0.4828
+[Train] 8000/8544 | Loss=1.1770 | Acc=0.4815
+[Train] 8512/8544 | Loss=1.1750 | Acc=0.4813
+[Val] 512/1101 | Loss=1.1299 | Acc=0.4824
+[Val] 1008/1101 | Loss=1.1457 | Acc=0.4881
+Epoch 2: Train Acc=0.4816 | Val Acc=0.4796

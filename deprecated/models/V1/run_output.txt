@@ -1,0 +1,64 @@
+[Train] 512/8544 | Loss=1.5746 | Acc=0.2637
+[Train] 1008/8544 | Loss=1.5303 | Acc=0.3065
+[Train] 1504/8544 | Loss=1.4546 | Acc=0.3404
+[Train] 2000/8544 | Loss=1.3901 | Acc=0.3765
+[Train] 2512/8544 | Loss=1.3442 | Acc=0.4025
+[Train] 3008/8544 | Loss=1.3116 | Acc=0.4212
+[Train] 3504/8544 | Loss=1.2927 | Acc=0.4304
+[Train] 4000/8544 | Loss=1.2795 | Acc=0.4338
+[Train] 4512/8544 | Loss=1.2623 | Acc=0.4424
+[Train] 5008/8544 | Loss=1.2484 | Acc=0.4487
+[Train] 5504/8544 | Loss=1.2366 | Acc=0.4535
+[Train] 6000/8544 | Loss=1.2331 | Acc=0.4537
+[Train] 6512/8544 | Loss=1.2238 | Acc=0.4567
+[Train] 7008/8544 | Loss=1.2152 | Acc=0.4600
+[Train] 7504/8544 | Loss=1.2099 | Acc=0.4630
+[Train] 8000/8544 | Loss=1.2004 | Acc=0.4675
+[Train] 8512/8544 | Loss=1.1975 | Acc=0.4678
+[Val] 512/1101 | Loss=1.0953 | Acc=0.4844
+[Val] 1008/1101 | Loss=1.0983 | Acc=0.5010
+Epoch 1: Train Acc=0.4675 | Val Acc=0.4950
+[Train] 512/8544 | Loss=0.9456 | Acc=0.6016
+[Train] 1008/8544 | Loss=0.8969 | Acc=0.6260
+[Train] 1504/8544 | Loss=0.8902 | Acc=0.6303
+[Train] 2000/8544 | Loss=0.8809 | Acc=0.6310
+[Train] 2512/8544 | Loss=0.8740 | Acc=0.6350
+[Train] 3008/8544 | Loss=0.8771 | Acc=0.6313
+[Train] 3504/8544 | Loss=0.8788 | Acc=0.6264
+[Train] 4000/8544 | Loss=0.8870 | Acc=0.6225
+[Train] 4512/8544 | Loss=0.8849 | Acc=0.6221
+[Train] 5008/8544 | Loss=0.8857 | Acc=0.6218
+[Train] 5504/8544 | Loss=0.8859 | Acc=0.6192
+[Train] 6000/8544 | Loss=0.8805 | Acc=0.6232
+[Train] 6512/8544 | Loss=0.8846 | Acc=0.6186
+[Train] 7008/8544 | Loss=0.8831 | Acc=0.6189
+[Train] 7504/8544 | Loss=0.8843 | Acc=0.6185
+[Train] 8000/8544 | Loss=0.8829 | Acc=0.6200
+[Train] 8512/8544 | Loss=0.8827 | Acc=0.6197
+[Val] 512/1101 | Loss=1.0713 | Acc=0.5312
+[Val] 1008/1101 | Loss=1.0903 | Acc=0.5407
+Epoch 2: Train Acc=0.6194 | Val Acc=0.5332
+
+========== FINAL RESULTS ==========
+
+Final Train Accuracy: 0.6194
+Final Validation Accuracy: 0.5332
+Test Loss: 1.0801
+Test Accuracy: 0.5290
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0     0.6000    0.2366    0.3393       279
+           1     0.5486    0.7220    0.6235       633
+           2     0.3648    0.3573    0.3610       389
+           3     0.5188    0.6216    0.5656       510
+           4     0.6909    0.4762    0.5638       399
+
+    accuracy                         0.5290      2210
+   macro avg     0.5446    0.4827    0.4906      2210
+weighted avg     0.5416    0.5290    0.5173      2210
+
+====================================
+

@@ -1,0 +1,324 @@
+========== FINAL RESULTS ==========
+Model Version: V1
+
+Final Train Accuracy: 0.9870
+Final Validation Accuracy: 0.4959
+
+Test Loss: 2.8052
+Test Accuracy: 0.5095
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.5445    0.3728    0.4426       279
+           1     0.5688    0.4834    0.5226       633
+           2     0.3326    0.3830    0.3560       389
+           3     0.4962    0.6412    0.5595       510
+           4     0.6417    0.6015    0.6210       399
+
+    accuracy                         0.5095      2210
+   macro avg     0.5168    0.4964    0.5003      2210
+weighted avg     0.5206    0.5095    0.5094      2210
+
+====================================
+
+[Train] 512/8544 | Loss=1.5524 | Acc=0.3047
+[Train] 1008/8544 | Loss=1.4833 | Acc=0.3442
+[Train] 1504/8544 | Loss=1.4334 | Acc=0.3670
+[Train] 2000/8544 | Loss=1.3792 | Acc=0.3920
+[Train] 2512/8544 | Loss=1.3481 | Acc=0.4041
+[Train] 3008/8544 | Loss=1.3150 | Acc=0.4189
+[Train] 3504/8544 | Loss=1.2971 | Acc=0.4229
+[Train] 4000/8544 | Loss=1.2760 | Acc=0.4305
+[Train] 4512/8544 | Loss=1.2596 | Acc=0.4373
+[Train] 5008/8544 | Loss=1.2505 | Acc=0.4445
+[Train] 5504/8544 | Loss=1.2447 | Acc=0.4469
+[Train] 6000/8544 | Loss=1.2362 | Acc=0.4487
+[Train] 6512/8544 | Loss=1.2246 | Acc=0.4549
+[Train] 7008/8544 | Loss=1.2147 | Acc=0.4596
+[Train] 7504/8544 | Loss=1.2073 | Acc=0.4635
+[Train] 8000/8544 | Loss=1.1989 | Acc=0.4667
+[Train] 8512/8544 | Loss=1.1924 | Acc=0.4693
+[Val] 512/1101 | Loss=1.0936 | Acc=0.5078
+[Val] 1008/1101 | Loss=1.1079 | Acc=0.4990
+Epoch 1: Train Acc=0.4695 | Val Acc=0.4886
+[Train] 512/8544 | Loss=0.8441 | Acc=0.6621
+[Train] 1008/8544 | Loss=0.8912 | Acc=0.6101
+[Train] 1504/8544 | Loss=0.8918 | Acc=0.6117
+[Train] 2000/8544 | Loss=0.8880 | Acc=0.6090
+[Train] 2512/8544 | Loss=0.8824 | Acc=0.6150
+[Train] 3008/8544 | Loss=0.8774 | Acc=0.6200
+[Train] 3504/8544 | Loss=0.8813 | Acc=0.6136
+[Train] 4000/8544 | Loss=0.8801 | Acc=0.6162
+[Train] 4512/8544 | Loss=0.8841 | Acc=0.6128
+[Train] 5008/8544 | Loss=0.8800 | Acc=0.6180
+[Train] 5504/8544 | Loss=0.8797 | Acc=0.6177
+[Train] 6000/8544 | Loss=0.8767 | Acc=0.6203
+[Train] 6512/8544 | Loss=0.8726 | Acc=0.6247
+[Train] 7008/8544 | Loss=0.8808 | Acc=0.6201
+[Train] 7504/8544 | Loss=0.8784 | Acc=0.6198
+[Train] 8000/8544 | Loss=0.8758 | Acc=0.6215
+[Train] 8512/8544 | Loss=0.8802 | Acc=0.6197
+[Val] 512/1101 | Loss=1.0842 | Acc=0.5273
+[Val] 1008/1101 | Loss=1.0998 | Acc=0.5188
+Epoch 2: Train Acc=0.6199 | Val Acc=0.5123
+[Train] 512/8544 | Loss=0.6531 | Acc=0.7441
+[Train] 1008/8544 | Loss=0.6218 | Acc=0.7649
+[Train] 1504/8544 | Loss=0.6121 | Acc=0.7560
+[Train] 2000/8544 | Loss=0.6013 | Acc=0.7605
+[Train] 2512/8544 | Loss=0.6103 | Acc=0.7568
+[Train] 3008/8544 | Loss=0.6159 | Acc=0.7490
+[Train] 3504/8544 | Loss=0.6108 | Acc=0.7514
+[Train] 4000/8544 | Loss=0.6155 | Acc=0.7488
+[Train] 4512/8544 | Loss=0.6154 | Acc=0.7493
+[Train] 5008/8544 | Loss=0.6196 | Acc=0.7478
+[Train] 5504/8544 | Loss=0.6189 | Acc=0.7476
+[Train] 6000/8544 | Loss=0.6198 | Acc=0.7473
+[Train] 6512/8544 | Loss=0.6186 | Acc=0.7474
+[Train] 7008/8544 | Loss=0.6191 | Acc=0.7471
+[Train] 7504/8544 | Loss=0.6195 | Acc=0.7471
+[Train] 8000/8544 | Loss=0.6203 | Acc=0.7474
+[Train] 8512/8544 | Loss=0.6196 | Acc=0.7477
+[Val] 512/1101 | Loss=1.2633 | Acc=0.5234
+[Val] 1008/1101 | Loss=1.3097 | Acc=0.5089
+Epoch 3: Train Acc=0.7474 | Val Acc=0.4977
+[Train] 512/8544 | Loss=0.4298 | Acc=0.8438
+[Train] 1008/8544 | Loss=0.4096 | Acc=0.8562
+[Train] 1504/8544 | Loss=0.4049 | Acc=0.8511
+[Train] 2000/8544 | Loss=0.3758 | Acc=0.8625
+[Train] 2512/8544 | Loss=0.3924 | Acc=0.8551
+[Train] 3008/8544 | Loss=0.3903 | Acc=0.8547
+[Train] 3504/8544 | Loss=0.3911 | Acc=0.8525
+[Train] 4000/8544 | Loss=0.3902 | Acc=0.8525
+[Train] 4512/8544 | Loss=0.3939 | Acc=0.8522
+[Train] 5008/8544 | Loss=0.3968 | Acc=0.8492
+[Train] 5504/8544 | Loss=0.3965 | Acc=0.8483
+[Train] 6000/8544 | Loss=0.3921 | Acc=0.8498
+[Train] 6512/8544 | Loss=0.3944 | Acc=0.8490
+[Train] 7008/8544 | Loss=0.3925 | Acc=0.8512
+[Train] 7504/8544 | Loss=0.3879 | Acc=0.8527
+[Train] 8000/8544 | Loss=0.3889 | Acc=0.8520
+[Train] 8512/8544 | Loss=0.3889 | Acc=0.8523
+[Val] 512/1101 | Loss=1.5259 | Acc=0.5156
+[Val] 1008/1101 | Loss=1.6095 | Acc=0.5069
+Epoch 4: Train Acc=0.8522 | Val Acc=0.4977
+[Train] 512/8544 | Loss=0.2334 | Acc=0.9355
+[Train] 1008/8544 | Loss=0.2378 | Acc=0.9335
+[Train] 1504/8544 | Loss=0.2353 | Acc=0.9255
+[Train] 2000/8544 | Loss=0.2346 | Acc=0.9235
+[Train] 2512/8544 | Loss=0.2455 | Acc=0.9196
+[Train] 3008/8544 | Loss=0.2471 | Acc=0.9192
+[Train] 3504/8544 | Loss=0.2508 | Acc=0.9164
+[Train] 4000/8544 | Loss=0.2593 | Acc=0.9115
+[Train] 4512/8544 | Loss=0.2582 | Acc=0.9116
+[Train] 5008/8544 | Loss=0.2547 | Acc=0.9121
+[Train] 5504/8544 | Loss=0.2566 | Acc=0.9108
+[Train] 6000/8544 | Loss=0.2570 | Acc=0.9103
+[Train] 6512/8544 | Loss=0.2584 | Acc=0.9102
+[Train] 7008/8544 | Loss=0.2598 | Acc=0.9098
+[Train] 7504/8544 | Loss=0.2583 | Acc=0.9094
+[Train] 8000/8544 | Loss=0.2572 | Acc=0.9101
+[Train] 8512/8544 | Loss=0.2564 | Acc=0.9102
+[Val] 512/1101 | Loss=1.7725 | Acc=0.5156
+[Val] 1008/1101 | Loss=1.8418 | Acc=0.5149
+Epoch 5: Train Acc=0.9103 | Val Acc=0.5059
+[Train] 512/8544 | Loss=0.1502 | Acc=0.9473
+[Train] 1008/8544 | Loss=0.1473 | Acc=0.9514
+[Train] 1504/8544 | Loss=0.1495 | Acc=0.9495
+[Train] 2000/8544 | Loss=0.1491 | Acc=0.9485
+[Train] 2512/8544 | Loss=0.1436 | Acc=0.9506
+[Train] 3008/8544 | Loss=0.1413 | Acc=0.9508
+[Train] 3504/8544 | Loss=0.1470 | Acc=0.9495
+[Train] 4000/8544 | Loss=0.1466 | Acc=0.9500
+[Train] 4512/8544 | Loss=0.1448 | Acc=0.9506
+[Train] 5008/8544 | Loss=0.1475 | Acc=0.9501
+[Train] 5504/8544 | Loss=0.1482 | Acc=0.9495
+[Train] 6000/8544 | Loss=0.1503 | Acc=0.9488
+[Train] 6512/8544 | Loss=0.1522 | Acc=0.9482
+[Train] 7008/8544 | Loss=0.1522 | Acc=0.9478
+[Train] 7504/8544 | Loss=0.1560 | Acc=0.9471
+[Train] 8000/8544 | Loss=0.1603 | Acc=0.9450
+[Train] 8512/8544 | Loss=0.1613 | Acc=0.9450
+[Val] 512/1101 | Loss=1.9797 | Acc=0.5117
+[Val] 1008/1101 | Loss=2.0209 | Acc=0.5069
+Epoch 6: Train Acc=0.9449 | Val Acc=0.4986
+[Train] 512/8544 | Loss=0.1171 | Acc=0.9531
+[Train] 1008/8544 | Loss=0.1115 | Acc=0.9554
+[Train] 1504/8544 | Loss=0.1041 | Acc=0.9601
+[Train] 2000/8544 | Loss=0.0989 | Acc=0.9615
+[Train] 2512/8544 | Loss=0.0952 | Acc=0.9634
+[Train] 3008/8544 | Loss=0.0983 | Acc=0.9648
+[Train] 3504/8544 | Loss=0.1010 | Acc=0.9643
+[Train] 4000/8544 | Loss=0.1057 | Acc=0.9633
+[Train] 4512/8544 | Loss=0.1041 | Acc=0.9632
+[Train] 5008/8544 | Loss=0.1085 | Acc=0.9627
+[Train] 5504/8544 | Loss=0.1107 | Acc=0.9617
+[Train] 6000/8544 | Loss=0.1136 | Acc=0.9607
+[Train] 6512/8544 | Loss=0.1175 | Acc=0.9595
+[Train] 7008/8544 | Loss=0.1218 | Acc=0.9570
+[Train] 7504/8544 | Loss=0.1228 | Acc=0.9570
+[Train] 8000/8544 | Loss=0.1226 | Acc=0.9569
+[Train] 8512/8544 | Loss=0.1212 | Acc=0.9576
+[Val] 512/1101 | Loss=2.1791 | Acc=0.5020
+[Val] 1008/1101 | Loss=2.2628 | Acc=0.4891
+Epoch 7: Train Acc=0.9577 | Val Acc=0.4814
+[Train] 512/8544 | Loss=0.0813 | Acc=0.9785
+[Train] 1008/8544 | Loss=0.0779 | Acc=0.9762
+[Train] 1504/8544 | Loss=0.0879 | Acc=0.9707
+[Train] 2000/8544 | Loss=0.0925 | Acc=0.9700
+[Train] 2512/8544 | Loss=0.0846 | Acc=0.9733
+[Train] 3008/8544 | Loss=0.0850 | Acc=0.9734
+[Train] 3504/8544 | Loss=0.0863 | Acc=0.9715
+[Train] 4000/8544 | Loss=0.0847 | Acc=0.9718
+[Train] 4512/8544 | Loss=0.0878 | Acc=0.9705
+[Train] 5008/8544 | Loss=0.0914 | Acc=0.9696
+[Train] 5504/8544 | Loss=0.0924 | Acc=0.9693
+[Train] 6000/8544 | Loss=0.0900 | Acc=0.9703
+[Train] 6512/8544 | Loss=0.0939 | Acc=0.9696
+[Train] 7008/8544 | Loss=0.0943 | Acc=0.9695
+[Train] 7504/8544 | Loss=0.0919 | Acc=0.9704
+[Train] 8000/8544 | Loss=0.0920 | Acc=0.9704
+[Train] 8512/8544 | Loss=0.0920 | Acc=0.9705
+[Val] 512/1101 | Loss=2.3437 | Acc=0.4902
+[Val] 1008/1101 | Loss=2.3852 | Acc=0.4970
+Epoch 8: Train Acc=0.9706 | Val Acc=0.4886
+[Train] 512/8544 | Loss=0.0490 | Acc=0.9844
+[Train] 1008/8544 | Loss=0.0532 | Acc=0.9821
+[Train] 1504/8544 | Loss=0.0625 | Acc=0.9794
+[Train] 2000/8544 | Loss=0.0729 | Acc=0.9750
+[Train] 2512/8544 | Loss=0.0832 | Acc=0.9713
+[Train] 3008/8544 | Loss=0.0796 | Acc=0.9727
+[Train] 3504/8544 | Loss=0.0780 | Acc=0.9737
+[Train] 4000/8544 | Loss=0.0788 | Acc=0.9732
+[Train] 4512/8544 | Loss=0.0755 | Acc=0.9750
+[Train] 5008/8544 | Loss=0.0742 | Acc=0.9756
+[Train] 5504/8544 | Loss=0.0725 | Acc=0.9758
+[Train] 6000/8544 | Loss=0.0733 | Acc=0.9757
+[Train] 6512/8544 | Loss=0.0713 | Acc=0.9762
+[Train] 7008/8544 | Loss=0.0733 | Acc=0.9753
+[Train] 7504/8544 | Loss=0.0720 | Acc=0.9759
+[Train] 8000/8544 | Loss=0.0723 | Acc=0.9756
+[Train] 8512/8544 | Loss=0.0721 | Acc=0.9758
+[Val] 512/1101 | Loss=2.4165 | Acc=0.5273
+[Val] 1008/1101 | Loss=2.5275 | Acc=0.5139
+Epoch 9: Train Acc=0.9759 | Val Acc=0.5086
+[Train] 512/8544 | Loss=0.0528 | Acc=0.9766
+[Train] 1008/8544 | Loss=0.0738 | Acc=0.9742
+[Train] 1504/8544 | Loss=0.0799 | Acc=0.9714
+[Train] 2000/8544 | Loss=0.0763 | Acc=0.9730
+[Train] 2512/8544 | Loss=0.0677 | Acc=0.9757
+[Train] 3008/8544 | Loss=0.0688 | Acc=0.9751
+[Train] 3504/8544 | Loss=0.0710 | Acc=0.9746
+[Train] 4000/8544 | Loss=0.0713 | Acc=0.9738
+[Train] 4512/8544 | Loss=0.0704 | Acc=0.9747
+[Train] 5008/8544 | Loss=0.0735 | Acc=0.9740
+[Train] 5504/8544 | Loss=0.0720 | Acc=0.9746
+[Train] 6000/8544 | Loss=0.0721 | Acc=0.9740
+[Train] 6512/8544 | Loss=0.0711 | Acc=0.9740
+[Train] 7008/8544 | Loss=0.0713 | Acc=0.9743
+[Train] 7504/8544 | Loss=0.0702 | Acc=0.9747
+[Train] 8000/8544 | Loss=0.0715 | Acc=0.9748
+[Train] 8512/8544 | Loss=0.0720 | Acc=0.9744
+[Val] 512/1101 | Loss=2.6589 | Acc=0.5020
+[Val] 1008/1101 | Loss=2.7272 | Acc=0.4861
+Epoch 10: Train Acc=0.9745 | Val Acc=0.4768
+[Train] 512/8544 | Loss=0.0629 | Acc=0.9707
+[Train] 1008/8544 | Loss=0.0617 | Acc=0.9762
+[Train] 1504/8544 | Loss=0.0565 | Acc=0.9801
+[Train] 2000/8544 | Loss=0.0629 | Acc=0.9775
+[Train] 2512/8544 | Loss=0.0648 | Acc=0.9777
+[Train] 3008/8544 | Loss=0.0626 | Acc=0.9784
+[Train] 3504/8544 | Loss=0.0590 | Acc=0.9795
+[Train] 4000/8544 | Loss=0.0564 | Acc=0.9802
+[Train] 4512/8544 | Loss=0.0528 | Acc=0.9816
+[Train] 5008/8544 | Loss=0.0558 | Acc=0.9810
+[Train] 5504/8544 | Loss=0.0532 | Acc=0.9822
+[Train] 6000/8544 | Loss=0.0546 | Acc=0.9818
+[Train] 6512/8544 | Loss=0.0521 | Acc=0.9828
+[Train] 7008/8544 | Loss=0.0532 | Acc=0.9824
+[Train] 7504/8544 | Loss=0.0531 | Acc=0.9820
+[Train] 8000/8544 | Loss=0.0560 | Acc=0.9811
+[Train] 8512/8544 | Loss=0.0586 | Acc=0.9804
+[Val] 512/1101 | Loss=2.6314 | Acc=0.4941
+[Val] 1008/1101 | Loss=2.6512 | Acc=0.4950
+Epoch 11: Train Acc=0.9805 | Val Acc=0.4877
+[Train] 512/8544 | Loss=0.0422 | Acc=0.9902
+[Train] 1008/8544 | Loss=0.0436 | Acc=0.9881
+[Train] 1504/8544 | Loss=0.0421 | Acc=0.9880
+[Train] 2000/8544 | Loss=0.0457 | Acc=0.9855
+[Train] 2512/8544 | Loss=0.0489 | Acc=0.9841
+[Train] 3008/8544 | Loss=0.0612 | Acc=0.9804
+[Train] 3504/8544 | Loss=0.0601 | Acc=0.9803
+[Train] 4000/8544 | Loss=0.0607 | Acc=0.9798
+[Train] 4512/8544 | Loss=0.0571 | Acc=0.9812
+[Train] 5008/8544 | Loss=0.0553 | Acc=0.9818
+[Train] 5504/8544 | Loss=0.0521 | Acc=0.9827
+[Train] 6000/8544 | Loss=0.0502 | Acc=0.9835
+[Train] 6512/8544 | Loss=0.0485 | Acc=0.9836
+[Train] 7008/8544 | Loss=0.0476 | Acc=0.9839
+[Train] 7504/8544 | Loss=0.0497 | Acc=0.9835
+[Train] 8000/8544 | Loss=0.0489 | Acc=0.9836
+[Train] 8512/8544 | Loss=0.0503 | Acc=0.9833
+[Val] 512/1101 | Loss=2.7487 | Acc=0.5195
+[Val] 1008/1101 | Loss=2.8523 | Acc=0.4940
+Epoch 12: Train Acc=0.9833 | Val Acc=0.4823
+[Train] 512/8544 | Loss=0.0260 | Acc=0.9883
+[Train] 1008/8544 | Loss=0.0276 | Acc=0.9891
+[Train] 1504/8544 | Loss=0.0245 | Acc=0.9914
+[Train] 2000/8544 | Loss=0.0284 | Acc=0.9880
+[Train] 2512/8544 | Loss=0.0322 | Acc=0.9885
+[Train] 3008/8544 | Loss=0.0360 | Acc=0.9867
+[Train] 3504/8544 | Loss=0.0414 | Acc=0.9843
+[Train] 4000/8544 | Loss=0.0412 | Acc=0.9850
+[Train] 4512/8544 | Loss=0.0389 | Acc=0.9858
+[Train] 5008/8544 | Loss=0.0379 | Acc=0.9866
+[Train] 5504/8544 | Loss=0.0407 | Acc=0.9866
+[Train] 6000/8544 | Loss=0.0400 | Acc=0.9867
+[Train] 6512/8544 | Loss=0.0419 | Acc=0.9854
+[Train] 7008/8544 | Loss=0.0431 | Acc=0.9853
+[Train] 7504/8544 | Loss=0.0468 | Acc=0.9840
+[Train] 8000/8544 | Loss=0.0485 | Acc=0.9836
+[Train] 8512/8544 | Loss=0.0486 | Acc=0.9834
+[Val] 512/1101 | Loss=2.5513 | Acc=0.5273
+[Val] 1008/1101 | Loss=2.6377 | Acc=0.5159
+Epoch 13: Train Acc=0.9835 | Val Acc=0.5059
+[Train] 512/8544 | Loss=0.0509 | Acc=0.9863
+[Train] 1008/8544 | Loss=0.0499 | Acc=0.9812
+[Train] 1504/8544 | Loss=0.0499 | Acc=0.9820
+[Train] 2000/8544 | Loss=0.0563 | Acc=0.9805
+[Train] 2512/8544 | Loss=0.0540 | Acc=0.9817
+[Train] 3008/8544 | Loss=0.0500 | Acc=0.9824
+[Train] 3504/8544 | Loss=0.0472 | Acc=0.9837
+[Train] 4000/8544 | Loss=0.0500 | Acc=0.9828
+[Train] 4512/8544 | Loss=0.0504 | Acc=0.9829
+[Train] 5008/8544 | Loss=0.0485 | Acc=0.9840
+[Train] 5504/8544 | Loss=0.0472 | Acc=0.9840
+[Train] 6000/8544 | Loss=0.0465 | Acc=0.9842
+[Train] 6512/8544 | Loss=0.0459 | Acc=0.9843
+[Train] 7008/8544 | Loss=0.0462 | Acc=0.9842
+[Train] 7504/8544 | Loss=0.0460 | Acc=0.9845
+[Train] 8000/8544 | Loss=0.0473 | Acc=0.9840
+[Train] 8512/8544 | Loss=0.0468 | Acc=0.9841
+[Val] 512/1101 | Loss=2.6753 | Acc=0.5215
+[Val] 1008/1101 | Loss=2.8266 | Acc=0.5020
+Epoch 14: Train Acc=0.9841 | Val Acc=0.4986
+[Train] 512/8544 | Loss=0.0140 | Acc=0.9961
+[Train] 1008/8544 | Loss=0.0143 | Acc=0.9970
+[Train] 1504/8544 | Loss=0.0171 | Acc=0.9940
+[Train] 2000/8544 | Loss=0.0186 | Acc=0.9930
+[Train] 2512/8544 | Loss=0.0200 | Acc=0.9928
+[Train] 3008/8544 | Loss=0.0233 | Acc=0.9920
+[Train] 3504/8544 | Loss=0.0279 | Acc=0.9903
+[Train] 4000/8544 | Loss=0.0305 | Acc=0.9885
+[Train] 4512/8544 | Loss=0.0331 | Acc=0.9880
+[Train] 5008/8544 | Loss=0.0377 | Acc=0.9870
+[Train] 5504/8544 | Loss=0.0365 | Acc=0.9876
+[Train] 6000/8544 | Loss=0.0360 | Acc=0.9873
+[Train] 6512/8544 | Loss=0.0380 | Acc=0.9871
+[Train] 7008/8544 | Loss=0.0367 | Acc=0.9874
+[Train] 7504/8544 | Loss=0.0384 | Acc=0.9872
+[Train] 8000/8544 | Loss=0.0390 | Acc=0.9866
+[Train] 8512/8544 | Loss=0.0382 | Acc=0.9870
+[Val] 512/1101 | Loss=2.8642 | Acc=0.5156
+[Val] 1008/1101 | Loss=2.8944 | Acc=0.5069
+Epoch 15: Train Acc=0.9870 | Val Acc=0.4959

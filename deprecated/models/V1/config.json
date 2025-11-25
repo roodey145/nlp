@@ -1,0 +1,7 @@
+{
+    "MODEL_NAME": "V1",
+    "EPOCHS": 2,
+    "LR": 2e-05,
+    "MAX_LEN": 128,
+    "BATCH_SIZE": 16
+}
