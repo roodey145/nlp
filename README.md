@@ -46,9 +46,8 @@ Additionally, it uses GELU instead of RELU, which we tried in model V2 and V3.
   <img src="models/V4/confusion_matrix.png" width="50%">
 </div>  
 
+\
 **Explanation of results**:\
-As of February 2025, SOTA performance is 60.48% with BERT on sst-5 ([https://arxiv.org/abs/2502.20682](https://arxiv.org/abs/2502.20682)).
-
 Performance of BERT is much higher on the [SST-2](https://huggingface.co/datasets/stanfordnlp/sst2) dataset. 
 The original BERT paper from [Devlin et al., 2019](https://arxiv.org/abs/1810.04805) achieved 93.5% accuracy on SST-2. \
 There are multiple contributing factors to this. The [SST-2](https://huggingface.co/datasets/stanfordnlp/sst2)
@@ -59,16 +58,22 @@ The less fine-grained data is a less demanding task, since crucial keywords can 
 This challenge is evident from the confusion matrices for both models.
 The models correctly distinguish between positive and negative sentiments, but fail to accurately distinguish between very positive vs positive and positive vs neutral sentiments. 
 
-These fundamental challenges are a key component of why we struggled to increase performance beyond what a baseline model implementation can provide.
+As of February 2025, SOTA performance is 60.48% with BERT on sst-5 ([https://arxiv.org/abs/2502.20682](https://arxiv.org/abs/2502.20682)).
+The authors use multiple strategies to beat the previous SOTA performance.
+The model features a BiLSTM (Bidirectional LSTM) layer. The paper states that the bidirectionality allows modelling of more nuanced and complex dependencies in text.
+Additionally, the authors perform data augmentation using an NLP Augmenter (NLPAUG).
+An NLPAUG uses techniques like summarizations and synonym replacement to make classification of the model input more distinct.
+
+These fundamental challenges are a key component of why we struggled to increase performance notably beyond what a baseline model implementation can provide.
 
 
 # Discussion
-- Most important results (Easy baseline performance - Hard to otimize, why?)
-- What is good? Pipeline works well
-- What can be improved? (Adding techniques from Nkhata paper)
+**Summarization of the most important results and lessons learned**:\
+A basic implementation of BERT, adding only a single linear classifier, can achieve ~50% on the STT-5 dataset.
+The model can capture general trends. It mostly suceeds in distinguishes well between positive and negative sentiments. 
+However, it struggles to reflect the fine-grained nature of the dataset, often confusing a label with it's most adjacent labels.  
 
-- Lessons learned
-    - Pipeline becomes important when iterating models
-    - Being familiar with SOTA performance important before chasing 9's in performance metrics
-    - Dataset size
-    - Granularity of data  
+This is the reason why a naive implementation can achieve relatively high performance, when compared to how much effort is needed to further optimize performance. 
+
+Current SOTA of this particular task is only roughly 10% points higher than the naive solution.
+To bridge the gap between the performance of the naive model and SOTA, techniques that focus on increasing fine-grained ___ of the model is needed. 
