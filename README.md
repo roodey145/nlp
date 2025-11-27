@@ -76,4 +76,4 @@ However, it struggles to reflect the fine-grained nature of the dataset, often c
 This is the reason why a naive implementation can achieve relatively high performance, when compared to how much effort is needed to further optimize performance. 
 
 Current SOTA of this particular task is only roughly 10% points higher than the naive solution.
-To bridge the gap between the performance of the naive model and SOTA, techniques that focus on increasing fine-grained ___ of the model is needed. 
+To bridge the gap between the performance of the naive model and SOTA, techniques that focus on increasing fine-grained discrimination ability of the model is needed. 
